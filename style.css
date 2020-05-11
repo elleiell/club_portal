@@ -1,0 +1,212 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.font-default, p {
+	font-size: 14px;
+}
+.font-sm {
+	font-size: 13px;
+}
+.fbold {
+	font-weight: 600;
+	color: #242424;
+}
+.btn {
+	border-radius: 0;
+}
+
+.bg-dark, .btn-dark {
+    background-color: #000!important;
+}
+
+a, a.nav-link:focus, li:hover .nav-link, li:hover .nav-link i, .sidebar .nav-link.active, .sidebar .nav-link.active i {
+	color: rgb(214,13,68);
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* --- BEGIN: LOGIN PAGE; --- */
+.login-wrapper {
+	position: relative;
+	height: 480px;
+	margin: 0 auto;
+    display: block;
+}
+
+.form-login {
+	width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    position: absolute;
+	top: 20%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+    display: block;
+}
+
+.form-login #inputclubid {    
+	margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login #inputPassword {
+	margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-login .form-control {
+	position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+/* --- END: LOGIN PAGE; --- */
+
+
+/* --- BEGIN: DASHBOARD PAGE; --- */
+input {border-radius: 0px !important;}
+input.searchbox {
+	color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+.dashboard-wrapper {
+	margin-top: 40px;
+}
+
+.dashboard-wrapper ul.nav, main  {
+	min-height: 100vh;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ee2f5c;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+	color: #f74771;
+}
+
+.sidebar .nav-link {
+	color: #bababa;
+}
+
+.sidebar .nav-link i {
+	color: #bababa;
+	font-size: 18px;
+	vertical-align: text-bottom;
+}
+
+.sidebar .nav-link {
+	padding: 20px 0;
+	border-bottom: 1px solid #494e53;
+}
+
+.sidebar ul.nav li.nav-item:last-child {
+    color: #858796;
+    font-size: 12px;
+    padding-bottom: 20px;
+    bottom: 0;
+    position: absolute;
+}
+
+main {
+	background-color: #f8f9fc;
+}
+
+.body-content {
+	margin-top: 30px;
+}
+.body-content h3 {
+	padding-bottom: 20px;
+}
+
+.player-info-side {
+	background-color: #fff;
+	margin-left: -50px;
+	padding: 40px;
+}
+
+form.club_info_form .form-control {
+	height: auto;
+    padding: 10px;
+}
+
+form.club_info_form  .col-form-label {
+	line-height: 2;
+}
+
+
+.table td, .table th {
+	    border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255,255,255, 1);
+}
+
+table thead {
+	background-color: rgba(0,0,0, .10);
+}
+
+.table_page_btn .page-item.active .page-link {
+	background-color: #000;
+    border-color: #000;
+}
+.table_page_btn .page-link {
+	color: #242424;
+}
+
+ul.design-pref{
+	margin-left: -40px;	
+}
+ul.design-pref li {
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-right: 10px;
+
+}
+
+.design-pref img {
+	width: 230px;
+	height: 200px;
+}
+
+ul.design-pref li .custom-control-input {
+	position: absolute;
+    bottom: 35px;
+    left: inherit;
+    right: 5px;
+    z-index: 1;
+    width: 2rem;
+    height: 1.25rem;
+    opacity: 1;
+}
+
+
+/* --- END: DASHBOARD PAGE; --- */
+
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
